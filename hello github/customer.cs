@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace hello_github
 {
-    class Program
+    class customer
     {
-        static void Main(string[] args)
-        {
-            Console.Write( " Hello Github");
-            int i = 10; 
-        }
+        public int MyProperty { get; set; }
     }
 }
